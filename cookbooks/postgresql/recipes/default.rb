@@ -5,7 +5,7 @@
 # Copyright:: 2017, The Authors, All Rights Reserved.
 
 package 'postgresql-server' do
-	notifies :run, 'execute[postgresql-init]'
+	notifies :run, 'execute[postgresql-init]', :immediately
 end
 
 execute 'postgresql-init' do
@@ -13,6 +13,6 @@ execute 'postgresql-init' do
 	action :nothing
 end 
 
-service 'posgresql' do
+service 'postgresql' do
 	action [:enable, :start]
 end
