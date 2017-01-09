@@ -1,4 +1,4 @@
 file 'default www' do
 	path '/var/www/html/index.html'
-	content 'Hello Sam Brohters!'
+	content 'Hello Sam Brothers!'
 end

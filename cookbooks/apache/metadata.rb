@@ -1,6 +1,6 @@
 name 'apache'
 maintainer 'Sam Brothers'
-maintainer_email 'sibrohters@mitre.org'
+maintainer_email 'sibrothers@mitre.org'
 license 'all_rights'
 description 'Installs/Configures apache'
 long_description 'Installs/Configures apache'
